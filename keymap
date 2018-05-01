@@ -1,0 +1,16 @@
+[
+  // F3で関数の宣言元にジャンプ
+{ "keys": ["f3"], "command": "goto_definition" },
+// alt+左で戻る
+{ "keys": ["alt+left"], "command": "jump_back" },
+// alt+右で戻ったのをまた進める
+{ "keys": ["alt+right"], "command": "jump_forward" },
+{
+        "keys": ["ctrl+b"], "command": "browser_refresh", "args": {
+            "auto_save": true,
+            "delay": 0.0,
+            "activate": true,
+            "browsers" : ["chrome"]
+        }
+    }
+]
